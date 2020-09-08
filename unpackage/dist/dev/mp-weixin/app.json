@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/message/message",
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "电商平台",
+    "navigationBarBackgroundColor": "#b30059",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#dee2ed",
+    "selectedColor": "#af0057",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "咨询",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart-active.png"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "text": "会员",
+        "iconPath": "static/icon/member.png",
+        "selectedIconPath": "static/icon/member-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
